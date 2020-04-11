@@ -14,4 +14,8 @@ function getTraditionalGender(nameWithSalutation) {
   if (nameWithSalutation.startsWith("Mrs.")) {
     return "F";
   }
+
+  if (nameWithSalutation.startsWith("Ms.")) {
+    return "F";
+  }
 }
