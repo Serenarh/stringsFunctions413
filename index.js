@@ -10,3 +10,6 @@ console.log(spring.endsWith("March 19")); //checks to see if string "spring" end
 const color = "Blue is my favorite color. My favorite color is blue.";
 console.log(color.lastIndexOf("Blue")); //will find last index of Blue--returns 0 since lastIndexOf is case sensitive
 console.log(color.lastIndexOf("blue")); //will find last index of blue; will return 48 as this "blue" begins with lc "b"
+
+const yay = "Yay! ";
+console.log(yay.repeat(10)); //repeat causes indicated string to be repeated the indicated # of times; here "Yay! " will be repeated 10x
