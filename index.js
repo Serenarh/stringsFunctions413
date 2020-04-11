@@ -6,4 +6,18 @@ const woman1 = "Mrs. Smith";
 const woman2 = "Ms. Smith";
 const none = "Smith";
 
-function getTraditionalGender(nameWithSalutation) {}
+function getTraditionalGender(nameWithSalutation) {
+  if (nameWithSalutation.startsWith("Mr.")) {
+    return "M";
+  }
+
+  if (nameWithSalutation.startsWith("Mrs.")) {
+    return "F";
+  }
+
+  if (nameWithSalutation.startsWith("Ms.")) {
+    return "F";
+  }
+
+  return "Unknown";
+}
