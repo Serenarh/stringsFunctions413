@@ -13,3 +13,6 @@ console.log(color.lastIndexOf("blue")); //will find last index of blue; will ret
 
 const yay = "Yay! ";
 console.log(yay.repeat(10)); //repeat causes indicated string to be repeated the indicated # of times; here "Yay! " will be repeated 10x
+
+const word = "HUSH!";
+console.log(word.toLowerCase()); //change indicated string (here represented by variable word) to lower case
