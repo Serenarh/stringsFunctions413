@@ -3,3 +3,6 @@
 const good = "Good";
 const morning = "Morning!";
 console.log(good.concat(" ", morning)); //concatenates first string good with second string morning to print "Good Morning!";
+
+const spring = "Spring began on March 19";
+console.log(spring.endsWith("March 19")); //checks to see if string "spring" ends with "March 19"; if so, returns "true"; if not, returns "false"; here returns "true"
