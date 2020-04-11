@@ -21,3 +21,8 @@ function getTraditionalGender(nameWithSalutation) {
 
   return "Unknown";
 }
+
+console.log(getTraditionalGender(woman2));
+console.log(getTraditionalGender(none));
+console.log(getTraditionalGender(woman1));
+console.log(getTraditionalGender(man));
