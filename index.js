@@ -5,3 +5,5 @@ const man = "Mr. Smith";
 const woman1 = "Mrs. Smith";
 const woman2 = "Ms. Smith";
 const none = "Smith";
+
+function getTraditionalGender(nameWithSalutation) {}
