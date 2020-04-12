@@ -9,3 +9,9 @@ const students = [
   "Denver Laxton",
   "Dana Reichert"
 ];
+
+function first3(entries) {
+  // TODO: Use ARRAY DESTRUCTURING to assign the first 3 'Array items' in 'entries' to VARIABLES (e.g. 'x', 'y', 'z' - whatever), and simply RETURN those. - 3 PTS.
+  const [name1, name2, name3] = entries; //pull the first 3 names and assign those to variables
+  return `${name1} ${name2} ${name3}`; //return the first 3 names
+}
