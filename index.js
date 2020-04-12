@@ -15,3 +15,5 @@ function first3(entries) {
   const [name1, name2, name3] = entries; //pull the first 3 names and assign those to variables
   return `${name1} ${name2} ${name3}`; //return the first 3 names
 }
+
+console.log(first3(students)); //pass array students to function first3; after processing, log the first 3 names in the students array
