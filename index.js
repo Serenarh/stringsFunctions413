@@ -1,19 +1,11 @@
-// TODO: Build an 'admission' system that gets the first 3 'entries' in an Array.
+//TODO Write your own example function that demonstrates your understanding of object destructuring and default parameters. Note that you don't have to do from scratch or be that creative. You can just take any of the numerous function examples we have used this year - either mine or yours - or even one you 'google' for, if necessary. The point is that the arguments should be passed in as an object upon invocation and the function's named parameters should be expecting that and be able to destructure and provide default values for any 'missing' arguments (i.e. default parameters)  - 2 pts.
 
-//set up original array of 6 possible students
-const students = [
-  "Susan Brown",
-  "Don Baum",
-  "Wes Martin",
-  "Tally Stephens",
-  "Denver Laxton",
-  "Dana Reichert"
-];
-
-function first3(entries) {
-  // TODO: Use ARRAY DESTRUCTURING to assign the first 3 'Array items' in 'entries' to VARIABLES (e.g. 'x', 'y', 'z' - whatever), and simply RETURN those. - 3 PTS.
-  const [name1, name2, name3] = entries; //pull the first 3 names and assign those to variables
-  return `${name1} ${name2} ${name3}`; //return the first 3 names
-}
-
-console.log(first3(students)); //pass array students to function first3; after processing, log the first 3 names in the students array
+//Add function with default parameters
+function createJuniorCourseList({
+  scienceClass = "Anatomy",
+  mathClass = "Adv. Algebra",
+  englishClass = "English III",
+  physEdClass = "PE",
+  socialStudiesClass = "US History",
+  electives = ["Spanish III", "Welding"]
+})
