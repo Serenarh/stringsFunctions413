@@ -18,3 +18,10 @@ function createJuniorCourseList({
   ${socialStudiesClass}
   ${electives}`;
 }
+
+console.log(
+  createJuniorCourseList({
+    physEdClass: "Personal Fitness",
+    electives: ["Art III", "\n  Welding"]
+  })
+);
