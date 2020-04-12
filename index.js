@@ -8,4 +8,13 @@ function createJuniorCourseList({
   physEdClass = "PE",
   socialStudiesClass = "US History",
   electives = ["Spanish III", "Welding"]
-})
+}) {
+  //Return the list of courses; either defaults or the input parameters overriding the defaults
+  return `
+  ${scienceClass}
+  ${mathClass}
+  ${englishClass}
+  ${physEdClass}
+  ${socialStudiesClass}
+  ${electives}`;
+}
